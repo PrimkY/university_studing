@@ -18,15 +18,16 @@ double resolver(double x, double y, double function) {
 int main() {
     double x,y, function;
     int variant;
-    cout << "***************** Resolving lab 2 ******************" << endl;
+    cout << "***************** Resolving lab 2 **********************" << endl;
     cout << "Enter x:";
     cin >> x;
     cout << "Enter y:";
     cin >> y;
     cout << "Choose f(x):" << endl;
-    cout << "sh(x): 1" << endl;
-    cout << "x^2: 2" << endl;
-    cout << "e^x: 3" << endl;
+    cout << "1) sh(x)" << endl;
+    cout << "2) x^2" << endl;
+    cout << "3) e^x" << endl;
+    cout << "Your choose is: ";
     cin >> variant;
     switch (variant) {
       case 1:
@@ -39,8 +40,8 @@ int main() {
           function = exp(x);
           break;
       default:
-          function = x;
-          cout << "Invalid choice. Please enter a number between 1 and 3. Or f(x) = x" << endl;
+          cout << "Invalid choice. Please enter a number between 1 and 3." << endl;
+          return 0;
     }
     cout << "Answer for " << resolver(x,y, function) << endl;
     cout << "********************************************************";
