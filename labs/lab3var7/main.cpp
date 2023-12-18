@@ -9,13 +9,10 @@ double resolver(double x, int k) {
 
     for (int i = 1; i < k + 1; i++) {
         result *= -2 * exp(x) / i;
-        //cout << "this is result: " << result << "this is i: "<< i <<endl;
         result_sum += result;
     }
     return result_sum;
 }
-
-
 
 int main() {
     double a = 0.1;
