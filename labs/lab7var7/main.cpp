@@ -24,7 +24,7 @@ int countOnes(const string& str) {
 }
 
 int main() {
-    cout << "************************* Lab 6 var 7 **************************" << endl;
+    cout << "************************* Lab 7 var 7 **************************" << endl;
     string inputString;
     cout << "Enter sting that's consist of 1 or 0: " << endl;
     cin >> inputString;
