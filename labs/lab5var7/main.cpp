@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main() {
@@ -43,7 +44,7 @@ int main() {
     cout << "Result matrix will looks like this: " << endl;
     for (int i = 0; i < rows; ++i) {
         for (int j = 0; j < cols; ++j) {
-            cout << matrix[i][j] << " ";
+            cout << setw(5) << matrix[i][j] << " ";
         }
         cout << '\n';
     }
@@ -52,6 +53,6 @@ int main() {
         delete[] matrix[i];
     }
     delete[] matrix;
-
+    system("pause");
     return 0;
 }

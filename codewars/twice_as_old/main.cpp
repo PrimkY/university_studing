@@ -32,5 +32,7 @@ int main() {
     if(test(29, twice_as_old(29,0))) cout << "fourth test works!" << endl;
     cout << "Answer is " <<twice_as_old(dad, son) << " years" << endl;
     cout << "*******************************************************************" << endl;
+    cout << "this is ceil of 2/3" << ceil(2/3) << endl;
+    cout << "this is ceil of 4/3" << ceil(4/3) << endl;
     return 0;
 }

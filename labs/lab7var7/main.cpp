@@ -6,7 +6,7 @@ int countOnes(const string& str) {
     int counterForOnes = 0;
 
     for (char ch: str) {
-        if (ch != '0' && ch != '1') {cout << "[Error] Sting must contain only 1 or 0" << endl; ;return 0;}
+        if (ch != '0' && ch != '1') {cout << "[Error] Sting must contain only 1 or 0" << endl; return 0;}
         if (ch == '1') {
             counterForOnes++;
             if (counterForOnes == 5) {

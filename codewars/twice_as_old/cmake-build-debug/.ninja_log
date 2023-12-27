@@ -1,7 +1,7 @@
 # ninja log v5
-0	482	7161410198259773	CMakeFiles/twice_as_old.dir/main.cpp.obj	dae536a982084b3c
-1443	1533	7161410208740675	twice_as_old.exe	ba348b081df6a112
-3	465	7161411100708876	CMakeFiles/twice_as_old.dir/main.cpp.obj	dae536a982084b3c
-465	548	7161411101508861	twice_as_old.exe	ba348b081df6a112
 2	470	7161411712260142	CMakeFiles/twice_as_old.dir/main.cpp.obj	dae536a982084b3c
 470	554	7161411713070156	twice_as_old.exe	ba348b081df6a112
+5	680	7189201721659655	CMakeFiles/twice_as_old.dir/main.cpp.obj	cc8a69d11d88e3b9
+680	769	7189201722519645	twice_as_old.exe	ba348b081df6a112
+3	477	7189207224419094	CMakeFiles/twice_as_old.dir/main.cpp.obj	cc8a69d11d88e3b9
+477	565	7189207225269091	twice_as_old.exe	ba348b081df6a112
