@@ -20,6 +20,11 @@ int main() {
             maxIndex = i;
         }
     }
+    double first = arr[maxIndex];
+    for (int i = maxIndex; i > 0; --i) {
+        arr[i] = arr[i-1];
+    }
+    arr[0]  = first;
 
     int minIndex = 0;
     for (int i = 0; i < size; ++i) {
@@ -27,10 +32,11 @@ int main() {
             minIndex = i;
         }
     }
-
-    double temp = arr[0];
-    arr[0] = arr[maxIndex];
-    arr[maxIndex] = temp;
+    double last = arr[minIndex];
+    for (int i = minIndex; i < size-1; ++i) {
+        arr[i] = arr[i+1];
+    }
+    arr[size-1] = last;
 
     cout << "Result:\n";
     for (int i = 0; i < size; ++i) {
