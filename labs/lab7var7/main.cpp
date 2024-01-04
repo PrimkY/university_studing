@@ -11,11 +11,10 @@ int countOnes(const string& str) {
             counterForOnes++;
             if (counterForOnes == 5) {
                 groups++;
-            }
-        } else {
-            if (counterForOnes > 5) {
+            } else if (counterForOnes > 5) {
                 groups--;
             }
+        } else {
             counterForOnes = 0;
         }
     }
