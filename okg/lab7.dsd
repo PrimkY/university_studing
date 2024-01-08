@@ -1,0 +1,74 @@
+[DWF6Version]
+Ver=1
+[DWF6MinorVersion]
+MinorVer=1
+[DWF6Sheet:lab7-А4]
+DWG=E:\AllMyProjects\university_studing\okg\lab7.dwg
+Layout=А4
+Setup=
+OriginalSheetPath=E:\AllMyProjects\university_studing\okg\lab7.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:lab4-Лист1]
+DWG=E:\AllMyProjects\university_studing\okg\lab4.dwg
+Layout=Лист1
+Setup=
+OriginalSheetPath=E:\AllMyProjects\university_studing\okg\lab4.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:lab5-А4]
+DWG=E:\AllMyProjects\university_studing\okg\lab5.dwg
+Layout=А4
+Setup=
+OriginalSheetPath=E:\AllMyProjects\university_studing\okg\lab5.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:lab6-А4]
+DWG=E:\AllMyProjects\university_studing\okg\lab6.dwg
+Layout=А4
+Setup=
+OriginalSheetPath=E:\AllMyProjects\university_studing\okg\lab6.dwg
+Has Plot Port=0
+Has3DDWF=0
+[Target]
+Type=6
+DWF=E:\AllMyProjects\university_studing\okg\lab7.pdf
+OUT=E:\AllMyProjects\university_studing\okg\
+PWD=
+[MRU Local]
+MRU=1
+File0=E:\AllMyProjects\university_studing\okg\
+[MRU Sheet List]
+MRU=0
+[PdfOptions]
+IncludeHyperlinks=TRUE
+CreateBookmarks=TRUE
+CaptureFontsInDrawing=TRUE
+ConvertTextToGeometry=FALSE
+VectorResolution=1200
+RasterResolution=400
+[AutoCAD Block Data]
+IncludeBlockInfo=0
+BlockTmplFilePath=
+[SheetSet Properties]
+IsSheetSet=FALSE
+IsHomogeneous=FALSE
+SheetSet Name=
+NoOfCopies=1
+PlotStampOn=FALSE
+ViewFile=FALSE
+JobID=0
+SelectionSetName=
+AcadProfile=<<Профиль без имени>>
+CategoryName=
+LogFilePath=
+IncludeLayer=TRUE
+LineMerge=FALSE
+CurrentPrecision=
+PromptForDwfName=TRUE
+PwdProtectPublishedDWF=FALSE
+PromptForPwd=FALSE
+RepublishingMarkups=FALSE
+PublishSheetSetMetadata=FALSE
+PublishSheetMetadata=FALSE
+3DDWFOptions=0 1

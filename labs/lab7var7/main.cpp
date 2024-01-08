@@ -1,13 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int countOnes(const string& str) {
+int countOnes(const char* str) {
     int groups = 0;
     int counterForOnes = 0;
 
-    for (char ch: str) {
-        if (ch != '0' && ch != '1') {cout << "[Error] Sting must contain only 1 or 0" << endl; return 0;}
-        if (ch == '1') {
+    for (int i = 0; str[i] != '\0'; ++i) {
+        if (str[i] == '1') {
             counterForOnes++;
             if (counterForOnes == 5) {
                 groups++;
@@ -24,10 +23,10 @@ int countOnes(const string& str) {
 
 int main() {
     cout << "************************* Lab 7 var 7 **************************" << endl;
-    string inputString;
+    char str[40];
     cout << "Enter sting that's consist of 1 or 0: " << endl;
-    cin >> inputString;
-    countOnes(inputString);
+    gets(str);
+    countOnes(str);
     cout << "****************************************************************" << endl;
     return 0;
 }
